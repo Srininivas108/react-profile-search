@@ -1,0 +1,35 @@
+.profile-sec{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+} 
+
+.pro-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px;
+    background-color: lightsalmon;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    overflow: hidden;
+}
+.pro-data{
+    margin: 0 7px ;
+    text-align: center;
+
+}
+
+@media screen and (max-width:400px){
+    .pro-container {
+        width: 100%;
+    }
+}
